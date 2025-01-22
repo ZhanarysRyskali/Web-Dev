@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F2F5;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    position: absolute;
+    left: 14%;
+    top: 30%;
+    font-size: 25px;
+}
+
+header{
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    background-color: white;
+    margin: 20px;   
+    border: 5px black;
+    padding: 25px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+
+.box input{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+    padding: 13px 18px;
+    margin-top: 18px;
+}
+
+.forow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link1{
+    width: 100%;
+    text-align: center;
+    background-color: #2C83F2;
+    margin-top: 10px;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+a .link1{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.link2{
+    position: relative;
+    text-align: center;
+    margin-top: 12px;
+}
+
+a .link2{
+    color: #2c7ff2;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover .link2{
+    text-decoration: underline;
+}
+
+.link3{
+    width: 60%;
+    position: absolute;
+    left: 23%;
+    text-align: center;
+    background-color: #42b72a;
+    padding: 11px;
+    border-radius: 7px;
+    margin-top: 12px;
+}
+
+a .link3{
+    text-decoration: none;
+    color: #F0F2F5;
+}
