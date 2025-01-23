@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Roboto";
+}
+
+.container1{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+header{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 7%;
+    left: 57%;
+}
+
+.box1{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(230, 224, 224);
+}
+
+
+#Instagramtext{
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+
+.box1 input{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 11px;
+    margin: 5px;
+    margin-left: 20%;
+    padding: 13px 18px;
+    width: 62%;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    column-gap: 18px;
+    font-size: 14px;
+}
+
+.separator :nth-child(1),
+.separator :nth-child(3){
+    width: 100%;
+    height: 1.5px;
+    background: #ccc;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.link1{
+    width: 62%;
+    text-align: center;
+    background-color: #2C83F2;
+    margin-top: 10px;
+    margin-left: 20%;
+    padding: 11px;
+    border-radius: 7px;
+}
+
+
+
+.link2{
+    width: 60%;
+    position: relative;
+    left: 23%;
+    text-align: center;
+    padding: 11px;
+    border-radius: 7px;
+    margin-top: 12px;
+}
+
+a .link2{
+    text-decoration: none;
+    color: #2C83F2;
+}
+
+.link3{
+    position: relative;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 12px;
+}
+
+.forgot a{
+    color: #104487;
+    text-decoration: none;
+    text-align: center;
+}
+
+.forgot{
+    margin-bottom: 20px;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+
+.register p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#reg{
+    color: #2C83F2;
+    text-decoration: none;
+}
+
+#link4{
+    margin-left: 5px;
+}
+
+.text #download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gpm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.gpm img{
+    margin: 5px;
+    margin-top: 0px;
+}
