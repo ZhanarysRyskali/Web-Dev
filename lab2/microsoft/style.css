@@ -321,8 +321,7 @@ body{
     border: 1px solid #ccc;
 }
 
-.block__image {
-}
+
 .block__contents {
     display: flex; 
     flex-direction: column; 
