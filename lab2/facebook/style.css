@@ -6,9 +6,19 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 body{
     background-color: #F0F2F5;
     font-family: "Roboto", sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container{
@@ -16,6 +26,8 @@ body{
     left: 14%;
     top: 30%;
     font-size: 25px;
+    flex-grow: 1;
+    margin-bottom: 50px;
 }
 
 header{
@@ -30,6 +42,7 @@ header{
     padding: 25px;
     border-radius: 7px;
     box-sizing: border-box;
+    margin-bottom: 500px;
 }
 
 
@@ -95,4 +108,79 @@ a .link3{
     font-size: 15px;
     text-decoration: none;
     color: #F0F2F5;
+}
+
+footer{
+    background-color: #fff;
+    margin-top: 720px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom-part {
+    padding: 15px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+footer ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+
+footer ol:first-child li:last-child button {
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    outline: none;
+    color: #4b4f56;
+    padding: 0 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer ol li {
+    padding-right: 10px;
+    line-height: 2;
+    font-size: 12px;
+    color: #737373;
+    text-decoration: none;
+}
+
+footer ol li:hover{
+    text-decoration: underline;
+}
+
+lower-links{
+    color: #737373;
+}
+
+footer ol li a:hover {
+    text-decoration: underline;
+}
+
+footer small {
+    font-size: 11px;
+}
+
+footer ol a {
+    padding-right: 10px;
+    line-height: 2;
+    font-size: 12px;
+    color: #737373;
+    text-decoration: none;
+}
+
+footer ol a:hover{
+    text-decoration: underline;
+}
+
+small{
+    color: #737373;
 }
