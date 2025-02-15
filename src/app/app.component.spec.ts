@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'kaspi-products-app' title`, () => {
+  it(`should have the 'kaspi' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('kaspi-products-app');
+    expect(app.title).toEqual('kaspi');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, kaspi-products-app');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, kaspi');
   });
 });
